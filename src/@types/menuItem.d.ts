@@ -1,6 +1,6 @@
 export interface ItemProperties {
-    iconString: String,
+    iconString: string,
     iconSize: number | string,
-    pageUrl: String,
-    name: String
+    pageUrl: string,
+    name: string
 }

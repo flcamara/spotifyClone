@@ -46,7 +46,7 @@ watchEffect(() => {
    >
     <img 
     :width="iconSize"
-    :src="`../../public/images/icons/${icon}.png`" alt="Music icon">
+    :src="`/images/icons/${icon}.png`" alt="Music icon">
     <div
         :class="textIsHover ? 'text-white' : 'text-gray-400'"
         class="font-semibold text-[14px] ml-4 mt-0.5"
