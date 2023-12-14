@@ -23,7 +23,7 @@ import artist from '../artist.json'
             <img width="140" :src="artist.albumCover" alt="Capa album">
 
             <div class="w-full ml-5">
-                <div style="font-size: 33px;" class="text-white absolute w-full hover:underline cursor-pointer top-0 font-semibold">
+                <div style="font-size: 33px;" class="text-white absolute hover:underline cursor-pointer top-0 font-semibold">
                     {{ artist.name }}
                 </div>
 
@@ -66,7 +66,7 @@ import artist from '../artist.json'
         <div class="border-b border-b-[#2A2A2A] mt-2"></div>
         <div class="mb-4"></div>
         <ul class="w-full" v-for="track, index in artist.tracks" :key="track.id">
-            <SongRow :artist="artist" :track="track" :index="+index" />
+            <SongRow :artist="artist" :track="track" :index="index + 1" />
         </ul>
     </div>
 </template>
