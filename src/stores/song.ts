@@ -42,18 +42,19 @@ export const useSongStore = defineStore('song', {
 
       setTimeout(() => {
         this.isPlaying = true
-        this.audio?.play()
+        if(this.audio)
+        this.audio.play()
 
     }, 200)
     },
 
     playOrPauseSong(){
-      if(this.audio?.paused){
+      if(this.audio && this.audio.paused){
         this.isPlaying = true
         this.audio.play();
-      }else{
+      }else if (this.audio){
         this.isPlaying = false
-        this.audio?.pause();
+        this.audio.pause();
       }
     },
 
