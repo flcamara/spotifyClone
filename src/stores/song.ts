@@ -102,5 +102,6 @@ export const useSongStore = defineStore('song', {
         path: '',
       }
     }
-  }
+  },
+  persist: true
 })
