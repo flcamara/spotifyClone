@@ -2,7 +2,7 @@
 import uniqolor from 'uniqolor';
 import {ref, toRefs} from 'vue'
 import { RouterLink } from 'vue-router'
-import { CategoryProperties } from '@/@types/categorySelect'
+import { CategoryProperties } from '@/@types/categorySelect.d.ts'
 
 const randColor = ref()
 randColor.value = uniqolor.random()

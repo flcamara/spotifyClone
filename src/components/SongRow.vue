@@ -3,7 +3,7 @@ import { onMounted, ref, toRef, toRefs } from 'vue'
 import Play from 'vue-material-design-icons/Play.vue'
 import Pause from 'vue-material-design-icons/Pause.vue'
 import Heart from 'vue-material-design-icons/Heart.vue'
-import { SongRowProperties } from '@/@types/songView'
+import { SongRowProperties } from '@/@types/songView.d.ts'
 
 import { useSongStore } from '@/stores/song'
 import { storeToRefs } from 'pinia'

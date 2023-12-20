@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { ref, toRef, toRefs, watchEffect } from 'vue'
 import { useRoute } from 'vue-router'
-import { ItemProperties } from '@/@types/menuItem'
+import { ItemProperties } from '@/@types/menuItem.d.ts'
 
 const route = useRoute()
 

@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { toRefs } from 'vue';
 import { RouterLink } from 'vue-router';
-import { CardProperties } from '@/@types/homeCard'
+import { CardProperties } from '@/@types/homeCard.d.ts'
 
 const props = defineProps<CardProperties>()
 
