@@ -26,14 +26,13 @@ onMounted(() => {
 <template>
   <section>
 
-
     <div>
       <div
         class="
         w-[calc(100%-240px)]
         h-[60px]
         fixed
-        right-0
+        right-5
         z-20
         bg-[#101010]
         bg-opacity-80
